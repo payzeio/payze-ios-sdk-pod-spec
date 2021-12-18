@@ -27,10 +27,10 @@ s.source = { :git => "https://github.com/payzeio/payze-ios-sdk.git",
 s.framework = "UIKit"
 
 # 8
-s.source_files = "RWPickFlavor/**/*.{swift}"
+s.source_files = "Payze-iOS/**/*.{swift}"
 
 # 9
-s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "Payze-iOS/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "5"
