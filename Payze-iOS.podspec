@@ -17,7 +17,7 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Irakli Shelia" => "iraklishelia941@gmail.com" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
-s.homepage = "https://github.com/payzeio/payze-ios-sdk-pod-spec"
+s.homepage = "https://github.com/payzeio/payze-ios-sdk"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
 s.source = { :git => "https://github.com/payzeio/payze-ios-sdk.git", 
