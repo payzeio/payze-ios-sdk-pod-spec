@@ -1,0 +1,52 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98a4c47dd0568cbd0812aa3abbfc3c4e8a"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9870635d4290a028c71552c84259feb57c"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98787ede3438c26ab4cfee228a497993f9"
+    }
+  ],
+  "containerPath" : "/Users/Bakur_Khalvashi/Desktop/PayzePod1/Example/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/Bakur_Khalvashi/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/Bakur_Khalvashi/Library/Developer/Xcode/DerivedData/Pods-ehacrjnondocakdgmexsrrmjjokt/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/Bakur_Khalvashi/Library/Developer/Xcode/DerivedData/Pods-ehacrjnondocakdgmexsrrmjjokt/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

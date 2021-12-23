@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+PayzePod in Pods, no dependencies
+Pods-PayzePod_Example in Pods, depends on:
+PayzePod in Pods (explicit)
+Pods-PayzePod_Tests in Pods, depends on:
+Pods-PayzePod_Example in Pods (explicit)
