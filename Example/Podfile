@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PayzePod_Example' do
+  pod 'PayzePod', :path => '../'
+
+  target 'PayzePod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

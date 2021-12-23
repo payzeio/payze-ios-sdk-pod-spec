@@ -1,0 +1,6 @@
+framework module PayzePod {
+  umbrella header "PayzePod-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PayzePod (0.1.0)
+
+DEPENDENCIES:
+  - PayzePod (from `../`)
+
+EXTERNAL SOURCES:
+  PayzePod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PayzePod: ad763857c8482ef2739b5315c7e93b3172df7b1e
+
+PODFILE CHECKSUM: 39d8ba75dc5ae24da533bed22085ad3136eccf1c
+
+COCOAPODS: 1.8.4

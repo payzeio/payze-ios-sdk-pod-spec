@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C6879D950C8F8B6D1A43FF47BC2BFBF /* PayzePod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4866A6B8D2323805A0C6BC30215BA6E8 /* PayzePod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E1FC9D3AA45362E087181B780B55232 /* Pods-PayzePod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD19ED731BEFC4AF25FDD290268C69AD /* Pods-PayzePod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CFAF1AFD79395403ABACDA380E577D6 /* PayzePod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 089EECFBFAF5CCDB690A44B168335A45 /* PayzePod-dummy.m */; };
+		6986AB08BB1A4FECCA4578329ACBD29C /* Pods-PayzePod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C7CC56F494FCF64628E3DA66D929D9 /* Pods-PayzePod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D9E932A834693D990F0D8E4C41DC4B1 /* Pods-PayzePod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A092F55CA4E351FD07DD928639CAD743 /* Pods-PayzePod_Tests-dummy.m */; };
+		B78351A18E0CD7027C880AD038E59CD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BDB4A3FFC49F452FF2ECAFB6B00EFF07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C1CBB134DA65F628048D69298A5644F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D0F84A2D1A97666713CB102385AE6A2B /* Pods-PayzePod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B42EF507622A5A9B42DA5EB2ACBFAEAB /* Pods-PayzePod_Example-dummy.m */; };
+		F9517C864572E77DA1E4AACC522A50C1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF10A15374346CF9417A467AB207D8 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67B08D6D1AA114B10DC3DC63FB24F011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043D5476750858E41B6DFA8F9A57BD21;
+			remoteInfo = "Pods-PayzePod_Example";
+		};
+		9190FBAA6EF306618DCD01756E60A452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D23B1977AD512F34914D1F2F155EFDA0;
+			remoteInfo = PayzePod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043DEC77A85D730BDA3F6BA31A2C9DD2 /* Pods_PayzePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PayzePod_Tests.framework; path = "Pods-PayzePod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		063AD942BE37E28D859438DCEE1FED32 /* Pods-PayzePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayzePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		089EECFBFAF5CCDB690A44B168335A45 /* PayzePod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PayzePod-dummy.m"; sourceTree = "<group>"; };
+		0A2DBCB1E98C3FD72BB6CB12F681E1C3 /* PayzePod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PayzePod-Info.plist"; sourceTree = "<group>"; };
+		259525995DC95CB0F647C69BFFB9EB2F /* PayzePod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PayzePod.framework; path = PayzePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25AE9E5E80449C8E1E2356A7AB3DA716 /* Pods-PayzePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayzePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		314414360032BCDC5CD0486B47E99471 /* PayzePod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PayzePod.modulemap; sourceTree = "<group>"; };
+		4866A6B8D2323805A0C6BC30215BA6E8 /* PayzePod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PayzePod-umbrella.h"; sourceTree = "<group>"; };
+		4F73B9AAB9D19874A6487DD9817B96C1 /* Pods-PayzePod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PayzePod_Tests.modulemap"; sourceTree = "<group>"; };
+		56589DACCF6D5F14FCF60BC5B92BF728 /* Pods-PayzePod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayzePod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		702BDD5E3202BB07ED5D75203DD77652 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79F414EFD8D0AE36693C5E7061CAD850 /* Pods-PayzePod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayzePod_Example-Info.plist"; sourceTree = "<group>"; };
+		87FE75BBB57E3D72CAD0623D22ED8ED9 /* Pods-PayzePod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PayzePod_Example.modulemap"; sourceTree = "<group>"; };
+		89E644A04F611EF076D6845B8633855F /* PayzePod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PayzePod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91AC06D8545C2CA04E9D98728C41E47C /* Pods-PayzePod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayzePod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93FD5FC8A127FEF49257924B63C01231 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		96C7CC56F494FCF64628E3DA66D929D9 /* Pods-PayzePod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayzePod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A092F55CA4E351FD07DD928639CAD743 /* Pods-PayzePod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayzePod_Tests-dummy.m"; sourceTree = "<group>"; };
+		A617F84320E6EF7C62FED17B5C75D9E1 /* Pods-PayzePod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayzePod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6FDD34EFA5D21B93688BC6157A2A4F0 /* Pods-PayzePod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayzePod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB0000D75A6C89398DC3606CA426A61B /* PayzePod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PayzePod.xcconfig; sourceTree = "<group>"; };
+		ADB1C83F98BD8D36EB3BF53E711BFE23 /* Pods_PayzePod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PayzePod_Example.framework; path = "Pods-PayzePod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42EF507622A5A9B42DA5EB2ACBFAEAB /* Pods-PayzePod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayzePod_Example-dummy.m"; sourceTree = "<group>"; };
+		C9DF10A15374346CF9417A467AB207D8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PayzePod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D6885C49166691065932F8095B6A7D88 /* PayzePod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PayzePod-prefix.pch"; sourceTree = "<group>"; };
+		D838040EE8EB35144FC85340261E9517 /* Pods-PayzePod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayzePod_Tests-Info.plist"; sourceTree = "<group>"; };
+		DD19ED731BEFC4AF25FDD290268C69AD /* Pods-PayzePod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayzePod_Example-umbrella.h"; sourceTree = "<group>"; };
+		DF292326A91214332E25A4470A04C43C /* Pods-PayzePod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayzePod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DF3EE0C0A9D52ED74BA2A3FA776AFAB1 /* Pods-PayzePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayzePod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EE53601D06818841302F47A261F84F12 /* Pods-PayzePod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayzePod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D5B50AB58A0DA5F75B16B3267098A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78351A18E0CD7027C880AD038E59CD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446B0BECB0988D37CF76C7958E8BEE8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1CBB134DA65F628048D69298A5644F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528BA3A92AE4E42C93B36BE98468FA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB4A3FFC49F452FF2ECAFB6B00EFF07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2475F7F901EAA768B1B619D4457E3DC5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				93FD5FC8A127FEF49257924B63C01231 /* LICENSE */,
+				89E644A04F611EF076D6845B8633855F /* PayzePod.podspec */,
+				702BDD5E3202BB07ED5D75203DD77652 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		27951A227368F3B0C427D52661EF1830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259525995DC95CB0F647C69BFFB9EB2F /* PayzePod.framework */,
+				ADB1C83F98BD8D36EB3BF53E711BFE23 /* Pods_PayzePod_Example.framework */,
+				043DEC77A85D730BDA3F6BA31A2C9DD2 /* Pods_PayzePod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6007BE7EADB15EB8049E74AF4C6E1ECF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				314414360032BCDC5CD0486B47E99471 /* PayzePod.modulemap */,
+				AB0000D75A6C89398DC3606CA426A61B /* PayzePod.xcconfig */,
+				089EECFBFAF5CCDB690A44B168335A45 /* PayzePod-dummy.m */,
+				0A2DBCB1E98C3FD72BB6CB12F681E1C3 /* PayzePod-Info.plist */,
+				D6885C49166691065932F8095B6A7D88 /* PayzePod-prefix.pch */,
+				4866A6B8D2323805A0C6BC30215BA6E8 /* PayzePod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PayzePod";
+			sourceTree = "<group>";
+		};
+		6D8261E2E97A65D86ECBE7EF53DAE335 /* Pods-PayzePod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				87FE75BBB57E3D72CAD0623D22ED8ED9 /* Pods-PayzePod_Example.modulemap */,
+				A6FDD34EFA5D21B93688BC6157A2A4F0 /* Pods-PayzePod_Example-acknowledgements.markdown */,
+				EE53601D06818841302F47A261F84F12 /* Pods-PayzePod_Example-acknowledgements.plist */,
+				B42EF507622A5A9B42DA5EB2ACBFAEAB /* Pods-PayzePod_Example-dummy.m */,
+				56589DACCF6D5F14FCF60BC5B92BF728 /* Pods-PayzePod_Example-frameworks.sh */,
+				79F414EFD8D0AE36693C5E7061CAD850 /* Pods-PayzePod_Example-Info.plist */,
+				DD19ED731BEFC4AF25FDD290268C69AD /* Pods-PayzePod_Example-umbrella.h */,
+				DF292326A91214332E25A4470A04C43C /* Pods-PayzePod_Example.debug.xcconfig */,
+				DF3EE0C0A9D52ED74BA2A3FA776AFAB1 /* Pods-PayzePod_Example.release.xcconfig */,
+			);
+			name = "Pods-PayzePod_Example";
+			path = "Target Support Files/Pods-PayzePod_Example";
+			sourceTree = "<group>";
+		};
+		85ED56E653816FBF5E3A5558553E907A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D8261E2E97A65D86ECBE7EF53DAE335 /* Pods-PayzePod_Example */,
+				F87042CAD3DD932353F586E4F6BD48C9 /* Pods-PayzePod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CA7399DB2A26408B2FE40D3DE44092FA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2C1F43586E8E48B15F8EBEF897EC82B /* PayzePod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CA7399DB2A26408B2FE40D3DE44092FA /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				27951A227368F3B0C427D52661EF1830 /* Products */,
+				85ED56E653816FBF5E3A5558553E907A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2C1F43586E8E48B15F8EBEF897EC82B /* PayzePod */ = {
+			isa = PBXGroup;
+			children = (
+				C9DF10A15374346CF9417A467AB207D8 /* ReplaceMe.swift */,
+				2475F7F901EAA768B1B619D4457E3DC5 /* Pod */,
+				6007BE7EADB15EB8049E74AF4C6E1ECF /* Support Files */,
+			);
+			name = PayzePod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F87042CAD3DD932353F586E4F6BD48C9 /* Pods-PayzePod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4F73B9AAB9D19874A6487DD9817B96C1 /* Pods-PayzePod_Tests.modulemap */,
+				91AC06D8545C2CA04E9D98728C41E47C /* Pods-PayzePod_Tests-acknowledgements.markdown */,
+				A617F84320E6EF7C62FED17B5C75D9E1 /* Pods-PayzePod_Tests-acknowledgements.plist */,
+				A092F55CA4E351FD07DD928639CAD743 /* Pods-PayzePod_Tests-dummy.m */,
+				D838040EE8EB35144FC85340261E9517 /* Pods-PayzePod_Tests-Info.plist */,
+				96C7CC56F494FCF64628E3DA66D929D9 /* Pods-PayzePod_Tests-umbrella.h */,
+				063AD942BE37E28D859438DCEE1FED32 /* Pods-PayzePod_Tests.debug.xcconfig */,
+				25AE9E5E80449C8E1E2356A7AB3DA716 /* Pods-PayzePod_Tests.release.xcconfig */,
+			);
+			name = "Pods-PayzePod_Tests";
+			path = "Target Support Files/Pods-PayzePod_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41589851FCF1068915D501673CD5F485 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6879D950C8F8B6D1A43FF47BC2BFBF /* PayzePod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D0E787ACE66F501AE9EAE2EBA5A924 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6986AB08BB1A4FECCA4578329ACBD29C /* Pods-PayzePod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6887601F590CBF7840B9F778650E6422 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1FC9D3AA45362E087181B780B55232 /* Pods-PayzePod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		043D5476750858E41B6DFA8F9A57BD21 /* Pods-PayzePod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4F226BD93E964CA37C90B0FC5C12C5 /* Build configuration list for PBXNativeTarget "Pods-PayzePod_Example" */;
+			buildPhases = (
+				6887601F590CBF7840B9F778650E6422 /* Headers */,
+				560A7AF8076743BC60DB8F34F265BAEF /* Sources */,
+				528BA3A92AE4E42C93B36BE98468FA81 /* Frameworks */,
+				50CA3B78CFE8158B64D1BA43C40BC1AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAD3275306382348C3208B7F4E5CA339 /* PBXTargetDependency */,
+			);
+			name = "Pods-PayzePod_Example";
+			productName = "Pods-PayzePod_Example";
+			productReference = ADB1C83F98BD8D36EB3BF53E711BFE23 /* Pods_PayzePod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF2CC70AF7770A08E4896C8FF8A50377 /* Pods-PayzePod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C224F7A894D030561932B14E3AAD4D5 /* Build configuration list for PBXNativeTarget "Pods-PayzePod_Tests" */;
+			buildPhases = (
+				44D0E787ACE66F501AE9EAE2EBA5A924 /* Headers */,
+				372C94D65993F08942670C9FC9ACDD55 /* Sources */,
+				2D5B50AB58A0DA5F75B16B3267098A48 /* Frameworks */,
+				70F8AE7E1CD5861F244414FD0A3E945A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				757DBED01F75CB1AF13DE9C026085076 /* PBXTargetDependency */,
+			);
+			name = "Pods-PayzePod_Tests";
+			productName = "Pods-PayzePod_Tests";
+			productReference = 043DEC77A85D730BDA3F6BA31A2C9DD2 /* Pods_PayzePod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D23B1977AD512F34914D1F2F155EFDA0 /* PayzePod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960B684E7367BF4D2C2EA5343B275FDB /* Build configuration list for PBXNativeTarget "PayzePod" */;
+			buildPhases = (
+				41589851FCF1068915D501673CD5F485 /* Headers */,
+				95898170B667A869477E1B2B93F0FE28 /* Sources */,
+				446B0BECB0988D37CF76C7958E8BEE8B /* Frameworks */,
+				67802AB8F59D7F4B4E1B033A5D508DF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayzePod;
+			productName = PayzePod;
+			productReference = 259525995DC95CB0F647C69BFFB9EB2F /* PayzePod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 27951A227368F3B0C427D52661EF1830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D23B1977AD512F34914D1F2F155EFDA0 /* PayzePod */,
+				043D5476750858E41B6DFA8F9A57BD21 /* Pods-PayzePod_Example */,
+				CF2CC70AF7770A08E4896C8FF8A50377 /* Pods-PayzePod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50CA3B78CFE8158B64D1BA43C40BC1AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67802AB8F59D7F4B4E1B033A5D508DF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F8AE7E1CD5861F244414FD0A3E945A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372C94D65993F08942670C9FC9ACDD55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9E932A834693D990F0D8E4C41DC4B1 /* Pods-PayzePod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560A7AF8076743BC60DB8F34F265BAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F84A2D1A97666713CB102385AE6A2B /* Pods-PayzePod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95898170B667A869477E1B2B93F0FE28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFAF1AFD79395403ABACDA380E577D6 /* PayzePod-dummy.m in Sources */,
+				F9517C864572E77DA1E4AACC522A50C1 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		757DBED01F75CB1AF13DE9C026085076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PayzePod_Example";
+			target = 043D5476750858E41B6DFA8F9A57BD21 /* Pods-PayzePod_Example */;
+			targetProxy = 67B08D6D1AA114B10DC3DC63FB24F011 /* PBXContainerItemProxy */;
+		};
+		EAD3275306382348C3208B7F4E5CA339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PayzePod;
+			target = D23B1977AD512F34914D1F2F155EFDA0 /* PayzePod */;
+			targetProxy = 9190FBAA6EF306618DCD01756E60A452 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0379768CE8B1EA8D569C714F16B375A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 063AD942BE37E28D859438DCEE1FED32 /* Pods-PayzePod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayzePod_Tests/Pods-PayzePod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayzePod_Tests/Pods-PayzePod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		22459B3CAF11926F119DC820112FA4F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0000D75A6C89398DC3606CA426A61B /* PayzePod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PayzePod/PayzePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PayzePod/PayzePod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PayzePod/PayzePod.modulemap";
+				PRODUCT_MODULE_NAME = PayzePod;
+				PRODUCT_NAME = PayzePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E288F012C9EF0D26000496F8DF16D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF292326A91214332E25A4470A04C43C /* Pods-PayzePod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayzePod_Example/Pods-PayzePod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayzePod_Example/Pods-PayzePod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AD9DF4A0CE9EEB0DDCB669ACDE5B717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF3EE0C0A9D52ED74BA2A3FA776AFAB1 /* Pods-PayzePod_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayzePod_Example/Pods-PayzePod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayzePod_Example/Pods-PayzePod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B4FF0AAECEE2D1A91A9873F680F6E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0000D75A6C89398DC3606CA426A61B /* PayzePod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PayzePod/PayzePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PayzePod/PayzePod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PayzePod/PayzePod.modulemap";
+				PRODUCT_MODULE_NAME = PayzePod;
+				PRODUCT_NAME = PayzePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E1FE58517997BEFC9ECC97100AC3D357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AE9E5E80449C8E1E2356A7AB3DA716 /* Pods-PayzePod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayzePod_Tests/Pods-PayzePod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayzePod_Tests/Pods-PayzePod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B4F226BD93E964CA37C90B0FC5C12C5 /* Build configuration list for PBXNativeTarget "Pods-PayzePod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E288F012C9EF0D26000496F8DF16D68 /* Debug */,
+				5AD9DF4A0CE9EEB0DDCB669ACDE5B717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */,
+				C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C224F7A894D030561932B14E3AAD4D5 /* Build configuration list for PBXNativeTarget "Pods-PayzePod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0379768CE8B1EA8D569C714F16B375A2 /* Debug */,
+				E1FE58517997BEFC9ECC97100AC3D357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960B684E7367BF4D2C2EA5343B275FDB /* Build configuration list for PBXNativeTarget "PayzePod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4FF0AAECEE2D1A91A9873F680F6E4E /* Debug */,
+				22459B3CAF11926F119DC820112FA4F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
