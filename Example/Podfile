@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Payze-iOS_Tests' do
+  pod 'Payze-iOS', :path => '../'
+  
+  
+end

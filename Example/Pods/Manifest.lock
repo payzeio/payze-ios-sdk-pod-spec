@@ -1,0 +1,16 @@
+PODS:
+  - Payze-iOS (0.1.0)
+
+DEPENDENCIES:
+  - Payze-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  Payze-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Payze-iOS: 061464ab42e4bda6b36b8cc1c89147b881e582dc
+
+PODFILE CHECKSUM: 1e6e70005abcc70743d0de9882c02b7819125f26
+
+COCOAPODS: 1.8.4
